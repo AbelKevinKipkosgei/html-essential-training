@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Basics</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"placeholder="Enter your name" required>
+        </br>
+        </br>
+        <label for="email">Email:</label>
+        <input type="email" email="email" id="email" placeholder="Enter your email" required>
+        </br>
+        </br>
+        <label for="password">Password:</label>
+        <input type="password" password="password" id="password" placeholder="Enter your password" required>
+        </br>
+        </br>
+        <label for="phone_number">Phone Number:</label>
+        <input type="telephone" phone_number="phone_number" id="phone_number" placeholder="Enter your phone number">
+        </br>
+        </br>
+        <label for="search">Search:</label>
+        <input type="search" name="search" id="search" placeholder="Search...">
+        </br>
+        </br>
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date" placeholder="Select a date">
+        </br>
+        </br>
+        <label for="textarea">Text Area:</label>
+        <textarea name="textarea" id="textarea" placeholder="Enter your text here..."></textarea>
+        </br>
+        </br>
+        <label for="checkbox">Check Box:</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        </br>
+        </br>
+        <label for="radio">Radio Button:</label>
+        <input type="radio" name="radio" id="radio" value="option">
+        </br>
+        </br>
+        <label for="color">Color:</label>
+        <input type="color" name="color" id="color">
+        </br>
+        </br>
+        <label for="file">File Upload:</label>
+        <input type="file" name="file" id="file" accept="image/*" multiple>
+        </br>
+        </br>
+        <fieldset>
+            <legend>Choose your favorite fruit</legend>
+            <label for="fruits" name="fruits">Select a fruit:</label>
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+                <option value="grape">Grape</option>
+            </select>
+        </fieldset>
+        </br>
+        </br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
